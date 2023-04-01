@@ -13,10 +13,12 @@ button {
     border: 2px solid;
     padding: 1em 2em;
     font-size: 1em;
+    transition: all 0.2s;
 }
 
 button:hover {
     border-color: yellow;
     color: white;
     box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    transform: translateY(-0.25em);
 }
